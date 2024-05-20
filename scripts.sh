@@ -40,3 +40,7 @@ et-shell()
     docker compose -f docker-compose.yml run --rm web bash
 
 }
+
+et-f8() {
+    docker compose -f docker-compose.yml run --rm web python -m flake8
+}
