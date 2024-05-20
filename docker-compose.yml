@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./compose/local/flask/dockerfile
+    image: ensofia-task
+    ports:
+      - "5000:5000"
