@@ -1,0 +1,16 @@
+[
+  {
+    "itemId": "12345",
+    "name": "first",
+    "description": "Here's the first line item",
+    "quantity": "2",
+    "unitPrice": "12.95"
+  },
+  {
+    "itemId": "67890",
+    "name": "second",
+    "description": "Here's the second line item",
+    "quantity": "3",
+    "unitPrice": "7.95"
+  }
+]
